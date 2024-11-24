@@ -1,3 +1,13 @@
+# 成语接龙 web App
+Demo: https://dongyuwei.github.io/jielong
+
+## dev(tested with node v22.11.0, pnpm v9.14.2)
+- pnpm insatll
+- pnpm dev
+
+## deploy
+pnpm run deploy
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
