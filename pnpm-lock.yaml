@@ -14,9 +14,9 @@ importers:
       react-dom:
         specifier: ^18.3.1
         version: 18.3.1(react@18.3.1)
-      tiny-trie-ts:
-        specifier: 1.0.6
-        version: 1.0.6
+      tiny-trie:
+        specifier: ^0.2.6
+        version: 0.2.6
     devDependencies:
       '@eslint/js':
         specifier: ^9.13.0
@@ -899,8 +899,8 @@ packages:
     resolution: {integrity: sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw==}
     engines: {node: '>=8'}
 
-  tiny-trie-ts@1.0.6:
-    resolution: {integrity: sha512-/C/Yhf0FlQJ1E/0NSsm+iu5Lm60b+LPHGo3IJzhIrHv4NvZtJyFNVMdtgLA/t0t1o0JpdlzKWG+E+/6fNSzJbw==}
+  tiny-trie@0.2.6:
+    resolution: {integrity: sha512-E0hdLop3NSjEH7LjEBEYXXONwv6Yrs23JEk2qfUWqZt6JnB8/ckTerQFMp1sW6jtA8V0UtkmxubLOpXtX0IYxw==}
 
   to-regex-range@5.0.1:
     resolution: {integrity: sha512-65P7iz6X5yEr1cwcgvQxbbIw7Uk3gOy5dIdtZ4rDveLqhrdJP+Li/Hx6tyK0NEb+2GCyneCMJiGqrADCSNk8sQ==}
@@ -1719,7 +1719,7 @@ snapshots:
     dependencies:
       has-flag: 4.0.0
 
-  tiny-trie-ts@1.0.6: {}
+  tiny-trie@0.2.6: {}
 
   to-regex-range@5.0.1:
     dependencies:

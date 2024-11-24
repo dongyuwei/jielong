@@ -1,5 +1,5 @@
 import idioms from './idiom.json';
-import { Trie } from 'tiny-trie-ts';
+import {Trie} from 'tiny-trie';
 
 const trie = new Trie();
 idioms.forEach((idiom: string) => {
@@ -7,5 +7,8 @@ idioms.forEach((idiom: string) => {
 });
 
 export function idiomsOfInput(input: string): string[] {
-  return trie.keysWithPrefix(input) as string[];
+  const prefixResults = trie.search(input, { prefix: true }) as string[];
+  const wildcardResults = trie.search(`*${input}`, { wildcard: '*' }) as string[];
+
+  return prefixResults.concat(wildcardResults);
 }

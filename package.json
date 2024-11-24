@@ -12,7 +12,7 @@
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "tiny-trie-ts": "1.0.6"
+    "tiny-trie": "^0.2.6"
   },
   "devDependencies": {
     "@eslint/js": "^9.13.0",
